@@ -1,0 +1,62 @@
+OOPS Concept :
+
+1.Class
+2.Object
+3.Data Abstraction
+4.Encapsulation
+5.Inheritance
+6.Polymorphism
+7.Dynamic Binding
+8.Message Passing
+
+1) Class : 
+-->A class is user defined data type .
+-->It consist of data member and member function.which can be accessed and used by creating an instance of class.
+-->Class is blueprint of object
+
+2) Object :
+-->It is a basic unit of Object-Oriented Programming and represent a real life entities.
+--> An obejct is instance of class 
+--> when class is defined , no memory is allocated but ehrn it is  instantiated(object is created) memory is allocated.
+--> object ahas and identity,state and behivour.
+
+3) Data Abstration :
+--> It is one of the most essential and important feature of OOP.
+--> It is refers to providing only essential information about the data to the outside world, hiding background details or implementation.
+
+4) Encapsulation :
+--> It is defined as the wrapping up of data under a single unit.
+--> It is mechanism that binds together code and data it manipulates.
+--> The variables or data of a class are hidden from any other class and can be accessed only through any member function of their class in which they are declared.
+--> The data in a class is hidden from other classes, so it is also known as data-hiding.
+
+5) Inheritance :
+--> The capability of a class to derive properties and characteristics from another class is called Inheritance. 
+--> When we write a class, we inherit properties from other classes.
+--> Inheritance allows the user to reuse the code whenever possible and reduce its redundancy.
+
+(single Inher)         (Multiple Inher)               (Multilevel)             (Hierarchical Inher)                (Hybrid Class)     
+ Parent Class     Parent Class    Parent Class        Parent Class               Parent   Class                    Parent Class A
+      |                    \\       //                      |                    |     |      |                        //  \\  
+ Child class               Child Class                Derived Class 1         Child1 Child2 Child3        Derived class B  Derived Class C
+                                                            |                                                          \\  //
+                                                      Derived Class 2                                              Derived Class D
+
+6) Polymorphism :
+--> The word polymorphism means having many forms.
+--> polymorphism as the ability of a message to be displayed in more than one form. 
+
+                                              _funtion overloading
+--> Types of Polymorphism :|-- Compile Time -|_operator overloading          
+                           |
+                           |-- Run Time -- virtal function
+
+7) Dynamic Binding :
+--> The code to be executed in response to the function call is decided at runtime.
+--> Dynamic binding means that the code associated with a given procedure call is not known until the time of the call at run time.
+
+8) Message Passing :
+--> It is a form of communication used in object-oriented programming as well as parallel programming.
+--> Objects communicate with one another by sending and receiving information to each other.
+
+
